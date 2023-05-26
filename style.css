@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.animate__fadeOutLeftBig, .animate__fadeInLeftBig{
+    --animate-duration: 1.5s;
+}
+
+.animate__slideInDown, .animate__slideOutUp {
+    --animate-duration: 2s;
+}
+
+#twisted {
+    rotate: 180deg;
+}
+
+#interesting {
+    margin-top: 10%;
+}
+
+#jokeScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
